@@ -8,7 +8,7 @@ func main()  {
      app:=fiber.New()
 
 	 //ips routes
-	 app.Get("/api/ips", server.Get)
+	 app.Get("/api/v1/ip", server.Get)
 
 	 app.Listen(":8080")
 }
